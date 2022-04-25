@@ -1,0 +1,24 @@
+###
+GET http://localhost:9000/jsonBook
+Content-Type: application/json
+
+{
+    "title": "I am really in it now",
+    "author": "Ventus Fair"
+}
+
+###
+POST http://localhost:9000/jsonBook
+Content-Type: application/json
+ 
+{
+    "title": "Wait, what's the matter",
+    "author": "Vanitas",
+    "pubyear": 2008,
+    "publisher": "Terranort",
+    "desc": "Bug checking"
+}
+
+###
+DELETE http://localhost:9000/jsonBook/7
+Content-Type: application/json
